@@ -11,8 +11,7 @@ int main(void)
     for (int i = 0; i < n; i++)
     {
         scanf("%d",&p);
-        total += bringforward + p ;
-        bringforward = x - p;
+        bringforward += x - p;
     }
-    cout << total ;
+    cout << bringforward + x ;
 }
