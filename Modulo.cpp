@@ -18,20 +18,20 @@ int main(void)
         {
             if (mod == mods[j])
             {
-                deduct --;
+                deduct ++;
                 // cout << "deduct " << deduct << endl;
             }
         }  
     }
 
-    if (abs(deduct) > mods.size())
+    if (deduct >= mods.size())
         {
             cout << "1" << endl;
         }
-        else
-        {
-            cout << mods.size() + deduct << endl;
-        }
+    else
+    {
+        cout << mods.size() - deduct << endl;
+    }
 
     // for (int j = 0; j < mods.size() - 1; j++)
     // {
