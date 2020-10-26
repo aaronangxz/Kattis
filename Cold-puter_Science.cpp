@@ -8,19 +8,25 @@ using namespace std;
 
 int main(void)
 {
-    int temp, count;
-    string num;
-
-	getline(cin, num);
-    stringstream input_num (num);
+    int temp, count = 0;
+    int n;
+	// getline(cin, num);
+    // stringstream input_num (num);
 
     vector<int> input;
-
-    for (int i = 0; i < count; i++)
+    scanf("%d",&n);
+    for (int i = 0; i < n; i++)
     {
-        /* code */
+        scanf("%d",&temp);
+        input.push_back(temp);
     }
     
-    //To be continued
-
+    for (int j = 0; j < input.size(); j++)
+    {
+        if (input[j] < 0)
+        {
+            count++;
+        }
+    }
+    cout << count;
 }

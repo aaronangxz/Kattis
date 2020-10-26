@@ -7,26 +7,13 @@ using namespace std;
 
 int main(void)
 {
-    string input;
-    vector<string> output;
-    //scanf("%s",input);
-    cin >> input;
-    getline(cin, input);
-    stringstream input_num (input);
-    output[0] = input[0];
-
-    for (int i = 1; i < input.size() - 1; i++)
+    char input[100];
+    scanf("%s",input);
+    for (int i = 0; input[i] != '\0'; i++)
     {
-        if (input[i - 1] == "-")
+        if (input[i] >= 65 && input[i] <= 90)
         {
-            output.push_back(input[i]);
+            cout << input[i];
         }
     }
-
-    for (int j = 0; j < output.size(); j++)
-    {
-        cout << output[j];
-    }
-    
-    
 }
