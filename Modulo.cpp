@@ -5,9 +5,9 @@
 
 using namespace std;
 
-vector<int> mods;
 int main(void)
 {
+    vector<int> mods;
     int num, mod, deduct = 0;
     for (int i = 1; i <= 10; i++)
     {
