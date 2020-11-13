@@ -7,18 +7,21 @@ int main(void)
     int n;
     string in;
     int tries = 0;
-
+    int guess = 500;
+    int hi, low;
     while (tries != 10)
     {
-        cout << "500" << endl;
+        cout << guess << endl;
         cin >> in;
         if (in == "lower")
         {
-            /* code */
+            cout << guess / 2;
+            hi = rand() % 500 + 1; 
         }
         else if (in == "higher")
         {
-            /* code */
+            cout << ;
+            low = 500 + rand() % 500 + 1;
         }
         else if (in == "correct")
         {
@@ -28,3 +31,5 @@ int main(void)
     }
     
 } 
+
+rand() % 1000 + 1; 
