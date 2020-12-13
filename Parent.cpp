@@ -24,7 +24,6 @@ int main(void)
     {
         cout << y + p << endl;
     }
-    
     else
     {
         cout << y + "ex" + p << endl;
