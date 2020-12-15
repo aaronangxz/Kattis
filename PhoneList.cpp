@@ -18,12 +18,6 @@ int main(void)
         for (int j = 0; i < n; j++)
         {
             cin >> num;
-            
-
-
         }
-        
     }
-    
-
 }
