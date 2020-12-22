@@ -1,2 +1,5 @@
 t = input()
-for i = 1 to t
+x = 0
+while x < t:
+    n = input()
+    x += 1
