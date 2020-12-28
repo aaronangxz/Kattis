@@ -14,7 +14,6 @@ for i in range(0,n):
     
 # Duplicate correct answers to hanh's answers
 hanh = correct
-
 # Loop n - 1 times since hanh's answer is always one more than correct answer
 for i in range(0,n - 1):
     # If the current answer matches hanh's next answer
